@@ -15,9 +15,9 @@ Resource          resource.robot
 
 *** Test Cases ***               USER NAME    ABOUT ME       MESSAGE
 Same Username                    demo         ${ABOUT ME}    ${MESSAGE}
-Diff Username                    mode         ${ABOUT ME}    ${MESSAGE}
+Diff Username                    diff         ${ABOUT ME}    ${MESSAGE}
 Empty Username                   ${EMPTY}     ${ABOUT ME}    ${EMPTY}
-Same Username Empty About Me     mode         ${EMPTY}       ${MESSAGE}
+Same Username Empty About Me     diff         ${EMPTY}       ${MESSAGE}
 Diff Username Empty About Me     demo         ${EMPTY}       ${MESSAGE}
 Empty Username Empty About Me    ${EMPTY}     ${EMPTY}       ${EMPTY}
 
