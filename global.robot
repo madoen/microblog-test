@@ -56,3 +56,6 @@ Home Page Should Be Open
     Location Should Be    ${HOME URL}
     Title Should Be    Home - microblog
 
+Logout
+    Click Element    logout
+    Wait Until Page Contains    Please log in to access this page.
